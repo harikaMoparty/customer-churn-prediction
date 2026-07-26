@@ -131,3 +131,4 @@ The Logistic Regression model is production-ready for a customer scoring pipelin
 ---
 
 *Report prepared as part of the Customer Churn Prediction portfolio project.*
+
