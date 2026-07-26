@@ -1,0 +1,82 @@
+# ============================================================
+# Python — Customer Churn Prediction .gitignore
+# ============================================================
+
+# --- Byte-compiled / optimised Python files ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+*.pyo
+
+# --- Virtual environments ---
+venv/
+env/
+.env/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# --- Environment variable files ---
+.env
+.env.local
+.env.*.local
+
+# --- Jupyter Notebook checkpoints ---
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# --- Distribution / packaging ---
+dist/
+build/
+*.egg-info/
+*.egg
+MANIFEST
+wheels/
+
+# --- Unit test / coverage reports ---
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# --- IDE and editor files ---
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# --- Data files (add exceptions if small CSVs should be tracked) ---
+*.csv
+*.xlsx
+*.xls
+data/raw/
+data/processed/
+
+# --- Saved models ---
+*.pkl
+*.joblib
+*.h5
+models/
+
+# --- Log files ---
+*.log
+logs/
+
+# --- OS-generated files ---
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
